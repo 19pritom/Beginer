@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form-NEHU Tura MCA Department</title>
+    <link rel="icon" href="images/NEHU_Logo.png" sizes="36x36">
+    <link rel="stylesheet" href="form.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="nav_container">
+            <div class="title_container">
+              <img class="nehu_logo" src="./images/NEHU_Logo.png" alt="NEHU logo" />
+               <a link="#"><h1>North-Eastern Hill University</h1>
+                <p>Tura Campus</p></a>
+            </div>
+            <div class="nav_links">
+              <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contacts">Faculty</a></li>
+                <li> 
+                  <form action="#" class="search">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <button type="submit"><i class='bx bx-search' ></i></button>
+                  </form>
+                </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+        <div class="context">
+          <form action="#" method="post" id="reg_form">
+            <div class="formbox">
+              <center><h6><b>Registration Form</b></h6><br></center>
+              <div class="data">
+                <div>
+                  <label for="First name">First Name:</label>
+                  <input type="text" id="firstname" name="First name" placeholder="Enter your first name" required>
+
+                  <label for="Gender">Gender</label>
+                  <select id="Gender"><option value="select"></option><option value="Male">Male</option><option value="Female">Female</option><option value="Prefer not to say">prefer not to say</option></select>
+
+                  <label for="Contact No">Contact No</label>
+                  <input type="number" id="ContactNo" name="Contact No" placeholder="Enter contact number">
+                </div>
+                <div>
+                  <label for="Middle name">Middle name</label>
+                  <input type="text" id="Middlename" name="Middle name" placeholder="Enter middle name ">
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                </div>
+                <div>
+                  <label for="Last name">Last name</label>
+                  <input type="text" id="Lastname" name="Last name" placeholder="Enter your last name" required>
+
+                  <label for="Birthday">Birthday</label>
+                  <input type="date" id="Birthday" name="Birthday" placeholder="Enter Date of birth" required>
+
+                  <label for="confirm-password">Confirm Password:</label>
+                  <input type="password" id="confirmpassword" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                
+              </div><center><input type="submit" onclick="reg()"  value="Register">
+                <script>
+                  function reg(){
+                    alert("Form submitted successfully");
+                  }
+                </script>
+                <input type="reset"  value="Reset"></center>
+             
+            </div>
+          </form>
+        </div>
+        
+  <footer>
+    <p>&copy; 2023 MCA Department. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="tel:+123456789"><ion-icon name="call"></ion-icon></a>
+      <a href="mailto:example@gmail.com"><ion-icon name="mail"></ion-icon></a>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+             
+      
+</body>
+</html>

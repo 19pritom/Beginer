@@ -1,0 +1,217 @@
+*{
+    font-family: calibri,sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+  } 
+  body{
+    background-image: linear-gradient(rgba(106, 65, 106, 0.9),rgba(106, 65, 106, 0.9)), url(images/pic4.jpg);
+    background-size:cover;
+  }
+  .context{
+    max-width: 80%;
+    max-height: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    align-content: center;
+  }
+  .search{
+    width: 200px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #100101;
+  }
+  .search-input::placeholder{
+    color: #100101;
+  }
+  .search button{
+    width: 60px;
+    height: 100%;
+    color: #100101;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+  }
+  
+  
+  
+  header {
+    /* background-color: #444; */
+    width: 100%;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .navbar {
+    position: fixed;
+    background-color: #444;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    z-index: 99;
+  }
+  
+  .nav_container {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .title_container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .title_container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .nehu_logo {
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .nav_links nav ul{
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_links li, a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    list-style: none;
+  }
+  
+  .nav_links a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .nav_links .search_icon {
+    height: 20px;
+  }
+  
+  .formbox {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.h6{
+  font-weight: 500;
+}
+.data{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.data div{
+  align-items:center;
+  margin: 20px;
+  width: 100%;
+}
+
+.data label {
+    display:block;
+    font-weight: bold;
+    
+}
+
+.data input[type="text"],
+select,
+.data input[type="email"],
+.data input[type="password"],
+.data input[type="date"],
+.data input[type="number"]
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    
+}
+
+.formbox input[type="submit"] {
+    background-color: rgba(106, 65, 106, 0.8);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.formbox input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.formbox input[type="reset"] {
+  background-color: rgba(106, 65, 106, 0.8);
+  color: white;
+  cursor: pointer;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.formbox input[type="reset"]:hover {
+  background-color: #cc2d2d;
+}
+  footer {
+    height: 100px;
+    background-color: #444;
+    color: #fff;
+    /* padding-top: 30px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p, .social-icons {
+    font-size: 1.2em;
+    margin: 0 10%;
+  }
+  
+ 
